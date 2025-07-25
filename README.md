@@ -1,26 +1,26 @@
-# Game
-Testing a game development as a beginner | I don't know anything about code.
-
-A simple platformer game built with Kaboom.js where you can:
-- Move with arrow keys
-- Double jump with spacebar
-- Collect points by landing on platforms
-- Avoid enemies
-- Challenge yourself with moving platforms
-
-## Play Online
-You can play the game online at: [Game URL will be here once deployed]
-
-## Controls
-- Left/Right Arrow Keys: Move
-- Spacebar: Jump (Double Jump available)
-- Try to get the highest score!
-
-   ```
-
-## Features
-- Double jump mechanics
-- Moving platforms
-- Enemy AI
-- Score system
-- Multiple levels of platforms 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Platform Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; }
+        body { 
+            overflow: hidden; 
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/kaboom@2000.2.10/dist/kaboom.js"></script>
+    <script src="game.js"></script>
+</body>
+</html> 
