@@ -16,12 +16,6 @@ You can play the game online at: [Game URL will be here once deployed]
 - Spacebar: Jump (Double Jump available)
 - Try to get the highest score!
 
-## Local Development
-1. Clone this repository
-2. Open index.html in your browser
-3. Or use a local server:
-   ```bash
-   npx http-server
    ```
 
 ## Features
